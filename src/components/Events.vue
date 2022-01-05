@@ -1,3 +1,4 @@
+
 <template>
 <div class="container">
   <div class="hello">
@@ -7,21 +8,21 @@
     </p>
     <div class="container1">
       <h1>CS GO</h1>
+       <img class="csgo" src="~@/assets/csgo.jpg">
       <p>Skal du være med til næste CS Go event? Det er på denne tirsdag. 
         Tilmeld dig så du får en notifikation i din indbakke</p> 
-
-
         <button>Connect</button> 
     </div>
    <div class="container1">
       <h1>FORTNITE</h1>
-          <img :src="image" />
+     <img class="csgo" src="~@/assets/fortnite.jpg">
       <p>Skal du være med til næste CS Go event? Det er på denne tirsdag. 
         Tilmeld dig så du får en notifikation i din indbakke</p>  
                 <button>Connect</button> 
     </div>
     <div class="container1">
       <h1>LEAUGE OF LEGENDS</h1>
+      <img class="csgo" src="~@/assets/lol.jpg">
       <p>Skal du være med til næste CS Go event? Det er på denne tirsdag. 
         Tilmeld dig så du får en notifikation i din indbakke</p>  
                 <button>Connect</button> 
@@ -29,6 +30,7 @@
     </div>
     <div class="container1">
       <h1>CALL OF DUTY WARZONE</h1> 
+      <img class="csgo" src="~@/assets/warzone.jpg">
       <p>Skal du være med til næste CS Go event? Det er på denne tirsdag. 
         Tilmeld dig så du får en notifikation i din indbakke</p>  
                 <button>Connect</button> 
@@ -43,8 +45,10 @@
 export default {
   name: 'Events',
   props: {
-    msg: String
+    msg: String,
   }
+  
+
 }
 
 
@@ -77,6 +81,11 @@ h1 {
   font-size: 25px;
 }
 
+.csgo {
+position: relative;
+height: 250px;
+width: 200px;
+}
 
 .container {
     width: 100%;
