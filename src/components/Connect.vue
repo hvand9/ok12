@@ -6,16 +6,6 @@
     <p>
       Her kan du se alle de events du kan joine
     </p>
-   <dropdown
-  title="Simple Filter"
-  text="Click to filter"
-  :items="[
-    {text: 'Item 1'},
-    {text: 'Item 2'}
-  ]">
-</dropdown>
-    <img :src="image" />
-
    <div class="container1">
       <h1>FORTNITE</h1>
       <p>Skal du være med til næste CS Go event? Det er på denne tirsdag. 
@@ -125,4 +115,3 @@ button {
 
 
 </style>
-
