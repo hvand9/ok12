@@ -1,3 +1,4 @@
+
 <script>
 import Sidebar from '@/components/sidebar/Sidebar'
 import { sidebarWidth } from '@/components/sidebar/state'
@@ -86,4 +87,3 @@ a { text-decoration: none; color:aliceblue}
   color: #42b983;
 }
 </style>
-
