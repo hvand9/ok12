@@ -1,28 +1,27 @@
 <template>
 <div class="container">
   <div class="hello">
-    <h1>Profil</h1>
-    <p>
-      Dette er profil siden, her kan du se alle dine data fra de seneste spil du har spillet
-    </p>
+         <img class="csgo" src="~@/assets/profil.png">
+
+    <h1>Brugerprofil</h1>
+    
     <div class="container1">
-      <h1>CS GO</h1>
-      <p>Du har i alt brugt 5 timer på dette spil</p> 
+      <p>Majuilonze</p> 
     </div>
    <div class="container1">
-      <h1>FORTNITE</h1>
-          <img :src="image" />
-      <p>Du har spillet dette spil 7 timer med dine venner</p>  
+      <p>Lionelmahmoud@gmail.com</p>  
              
     </div>
     <div class="container1">
-      <h1>LEAUGE OF LEGENDS</h1>
-      <p>Du har brugt 9 timer på dette spil med dine venner</p>  
+      <p>Blegdamshave 13b, 2400 København</p>  
     </div>
     <div class="container1">
-      <h1>CALL OF DUTY WARZONE</h1> 
-      <p>Du har brugt 4 timer på dette spil med dine venner</p>  
+      <p>CS GO</p>  
     </div>
+    </div>
+    <div class="button">
+    <button>Rediger</button>
+    <button>Gem</button>
     </div>
     </div>
 </template>
@@ -107,9 +106,13 @@ h1 {
     font-size: 200%
 }
 
-button {
-  border-radius: 25px;
-} 
+.button {
+  justify-content: space-between;
+  padding-left: 20px;
+}
+
+
 
 
 </style>
+
