@@ -10,7 +10,7 @@
       <p>Husk altid den gode tone inden du beslutter dig, at tilsutte dig til chatten. 
         Alle samtalerne er private og må ikke deles med andre medlemmer</p>
      
-  <button onclick="window.location.href='https://nifty-montalcini-3382e1.netlify.app/'">Fortsæt</button>
+  <button onclick="window.location.href='https://nifty-montalcini-3382e1.netlify.app/'">Tilbage</button>
     </div>
     <p>Fandt du ikke dit spil? Fortvivl ej! Der er hele tiden nye events!</p>
     </div>
@@ -63,8 +63,11 @@ body {
   background: rgb(0, 0, 0);
     font-size: 10px;
     background-color: black;
-
+  text-align: center;
+  color: #ffffff;
 }
+
+
 
 
 
@@ -115,3 +118,4 @@ button {
 
 
 </style>
+
